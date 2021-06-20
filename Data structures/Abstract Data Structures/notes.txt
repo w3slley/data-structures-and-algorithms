@@ -1,0 +1,11 @@
+## Common errors:
+
+
+> Error that appears when the class responsible to implement the interface doesn't implement all of its methods.
+
+
+TestIntSet.java:1: error: ClassIntSet is not abstract and does not override abstract method clear() in IntSet
+class ClassIntSet implements IntSet{
+^
+1 error
+
