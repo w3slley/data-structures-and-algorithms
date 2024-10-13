@@ -1,0 +1,7 @@
+Try to implement something like the algorithm you used to solve the game of life problem: go through each position and check if you can form the wanted word in the horizontal or in the vertical direction.
+
+18/03/2020
+Right now the algorithm is capable of solving correctly the inputs given. However it is very slow for high cols and line numbers.I have to figure out a way to improve its efficiency.
+The algorithm I made to reverse the string that was making everything slow. To reverse it, I used new StringBuilder(str).reverse().toString(). 
+
+Objetivo agora é obter o mesmo resultado só que sem utilizar concatenação de chars!

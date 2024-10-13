@@ -1,0 +1,42 @@
+class TreasureHunt{
+    int N;
+    int B;
+    int I;
+    char[] treasures;
+    int curr;
+    int count;
+
+    //increasing count when bucket has treasure on it
+    public void collectTreasure(){
+	if(treasures[curr]=='T') {
+	    count++;
+	    treasures[curr] = 'V';
+	}
+    }
+    
+    public void read(Scanner stdin){
+	N = stdin.nextInt();
+	B = stdin.nextInt();
+	I = stdin.nextInt();
+	stdin.nextLine();//jumpint cursor to next line
+	treasures = stdin.nextLine().toCharArray();
+	curr = B-1;
+	count = 0;
+	collectTreasure();
+	for(int i=0;i<I; i++)
+	    doInstruction(stdin.nextLine());
+	System.out.println(count);
+    }
+
+    public void doInstruction(String str){
+	char direction = str.split(" ")[0].charAt(0);
+	int steps = Integer.parseInt(str.split(" ")[1]);
+	
+	if(direction == 'D')
+	    curr +=steps;
+	else
+	    curr -=steps;
+
+        collectTreasure();	
+    }
+}

@@ -1,0 +1,8 @@
+public static int count(String num, int l, int r){
+	if(l >= r) return 0; //r é sempre maior que l pois estamos comparando duas posições na string
+	if(num.charAt(l) == num.charAt(r)) //se a == b, não adicionamos nenhum dígito somamos 0
+        return 0 + count(num,l+1,r-1,c);
+	else //se a != b, adicionamos um dígito ao número e somamos 1
+	    return 1 + Math.min(count(num,l+1,r), count(num,l,r-1)); //selecionamos o método que retorna o menor número de dígitos adicionados
+	
+}

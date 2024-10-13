@@ -1,0 +1,9 @@
+2
+2
+1 1
+5
+Luis 6 13
+Salome 16 20
+Simao 21 20
+Yasmin 26 10
+Ivan 31 12

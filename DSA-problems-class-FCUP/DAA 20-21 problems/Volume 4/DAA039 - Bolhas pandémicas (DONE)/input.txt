@@ -1,0 +1,15 @@
+4 10
+3 Carlos Maria Ana
+1 Pedro
+4 Nuno Luisa Joana Raul
+2 Teresa Filipa
+9
+P Filipa Nuno
+E Teresa Luisa
+P Filipa Nuno
+P Pedro Carlos
+P Carlos Nuno
+E Ana Filipa
+P Pedro Carlos
+P Ana Joana
+E Filipa Maria

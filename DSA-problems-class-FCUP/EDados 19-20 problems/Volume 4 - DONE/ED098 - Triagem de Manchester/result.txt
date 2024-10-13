@@ -1,0 +1,13 @@
+{{MiguelCoimbra, 0, 20}}
+{{RitaRibeiro, 0, 5}}
+{{FernandoSilva, 5, 15}}
+------------
+Cores     ND
+------------
+Vermelho   0
+ Laranja   1
+ Amarelo   1
+   Verde   1
+    Azul   0
+------------
+Numero doentes atendidos: 3

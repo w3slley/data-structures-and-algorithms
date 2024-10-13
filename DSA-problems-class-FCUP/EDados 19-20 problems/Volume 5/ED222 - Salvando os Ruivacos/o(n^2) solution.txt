@@ -1,0 +1,12 @@
+public void process(){
+	for(int i=0;i<N;i++){
+	    int q = 0;
+	    for(int j=i;j<K+i;j++)//each localization
+		if(depth[j]>=T) q++;
+	    if(q>=K/2) count++;
+	    //System.out.println(q);
+	    q=0;
+	    if(i+K==depth.length) break;
+	}
+	System.out.println(count);
+}

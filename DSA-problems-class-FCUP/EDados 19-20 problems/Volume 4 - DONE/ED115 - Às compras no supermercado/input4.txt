@@ -1,0 +1,24 @@
+2
+4
+1 2 2 2
+20
+Bryan 4 10
+Nicole 6 19
+Enzo 10 4
+Isabel 15 5
+Vera 20 15
+Kyara 21 14
+Claudio 25 18
+Lucas 27 11
+Leonardo 32 6
+Eva 36 2
+Guilherme 41 4
+Ines 42 2
+Luisa 46 18
+Artur 50 12
+Santiago 54 1
+Luciana 57 2
+Francisca 59 8
+Vasco 64 19
+Leandro 69 19
+Fernando 71 18

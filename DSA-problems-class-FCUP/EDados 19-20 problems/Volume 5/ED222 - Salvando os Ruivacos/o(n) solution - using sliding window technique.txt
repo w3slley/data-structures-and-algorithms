@@ -1,0 +1,16 @@
+public void process(){
+	int q = 0;
+	for(int i=0;i<N;i++){
+	    //first of (N-K)+1 intervals
+	    if(i==0)
+		for(int j=0;j<K;j++)
+		    if(depth[j]>=T) q++;
+	    double k = (int) K;//creating double variable for correct comparison
+	    if(q>=k/2) count++;
+	    if(i+K==depth.length) break; //if arrived at position N-K, get out of loop
+	    //updating values of q based on value of position a=i and b+1=i+K
+	    if(depth[i]>=T) q-=1;
+	    if(depth[i+K]>=T) q+=1;
+	}
+	System.out.println(count);
+}
